@@ -41,7 +41,6 @@ class StudentGraderGUI:
         
         #create frame to hold widgets
         self.graderFrame = tk.Frame(self.main_window)
-        #self.graderFrame.grid(row = 0, column = 0, rowspan = 3, columnspan = 3)
         #create label and entry for student name
         self.student_label = tk.Label(self.graderFrame, text = 'Student Name:')
         self.student_entry = tk.Entry(self.graderFrame, width = 20)
